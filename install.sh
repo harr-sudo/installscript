@@ -119,11 +119,13 @@ cd /opt/tools && sudo git clone --depth 1 https://github.com/drwetter/testssl.sh
 cd /opt/tools && sudo git clone https://github.com/t3l3machus/psudohash  
 cd /opt/tools/psudohash && chmod +x psudohash.py 
 
-cd /opt/tools && sudo git clone https://github.com/c3c/ADExplorerSnapshot.py.git
-cd /opt/tools/ADExplorerSnapshot.py && sudo 
-pip3 install --user .
-cd /opt/tools && sudo git clone https://github.com/helpsystems/nanodump.git
+
 cd /opt/tools && sudo mkdir AD
+
+cd /opt/tools/AD && sudo git clone https://github.com/c3c/ADExplorerSnapshot.py.git
+cd /opt/tools/AD/ADExplorerSnapshot.py && sudo pip3 install --user .
+cd /opt/tools/AD && sudo git clone https://github.com/helpsystems/nanodump.git
+
 cd /opt/tools/AD && sudo git clone https://github.com/topotam/PetitPotam
 
 cd /opt/tools/AD &&  mkdir printnightmare
@@ -135,8 +137,8 @@ cd /opt/tools && sudo git clone https://github.com/danielmiessler/SecLists.git
 
 
 
-cd /opt/tools/AD && sudo mkdir cheatsheet && sudo wget https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet 
-cd /opt/tools/AD && sudo wget https://github.com/harr-sudo/installscript/raw/main/ad_cheatsheet_by_orange-cyberdefense.pdf
+cd /opt/tools/AD && sudo mkdir cheatsheet && cd /opt/tools/AD/cheatsheet && sudo wget https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet 
+cd /opt/tools/AD/cheatsheet && sudo wget https://github.com/harr-sudo/installscript/raw/main/ad_cheatsheet_by_orange-cyberdefense.pdf
 
 
 
