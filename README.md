@@ -13,7 +13,7 @@ See https://github.com/harr-sudo/installscript/blob/main/install.sh for full lis
 - You will be asked to reset your password
 - Your Kali user will be placed into the sudoers group to avoid having to enter a password prompt for each sudo command
 - Read install.sh for a full list of what will be added
-- This will take about 10 minutes to run
+- This will take about 15 minutes to run
 
 Note: The wifi tools are a bit iffy
 
