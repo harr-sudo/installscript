@@ -147,3 +147,4 @@ cd /opt/tools && sudo git clone https://github.com/D3Ext/AORT && cd AORT && pip3
 
 cd /opt/tools && sudo git clone https://github.com/harr-sudo/privilege-escalation-awesome-scripts-suite
 cd /opt/tools && sudo git clone https://github.com/21y4d/nmapAutomator
+cd /opt/tools && sudo git clone https://github.com/rasta-mouse/Sherlock
