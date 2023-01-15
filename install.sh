@@ -150,3 +150,4 @@ cd /opt/tools && sudo git clone https://github.com/harr-sudo/privilege-escalatio
 cd /opt/tools && sudo git clone https://github.com/21y4d/nmapAutomator
 cd /opt/tools && sudo git clone https://github.com/rasta-mouse/Sherlock
 cd /opt/tools && sudo git clone https://github.com/t3l3machus/hoaxshell && cd hoaxshell && sudo chmod +x hoaxshell.py
+cd /opt/tools && sudo git cloen https://github.com/t3l3machus/wwwtree && cd wwwtree && sudo chmod +x wwwtree.py
