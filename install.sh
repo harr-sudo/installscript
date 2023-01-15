@@ -112,8 +112,7 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 #github tools 
 
-cd /opt && sudo mkdir tools && cd tools 
-sudo wget https://gist.githubusercontent.com/superkojiman/11076951/raw/74f3de7740acb197ecfa8340d07d3926a95e5d46/namemash.py && sudo chmod +x namemash.py 
+cd /opt && sudo mkdir tools && cd tools && sudo wget https://gist.githubusercontent.com/superkojiman/11076951/raw/74f3de7740acb197ecfa8340d07d3926a95e5d46/namemash.py && sudo chmod +x namemash.py 
  
 #cd /opt/tools && sudo git clone https://github.com/hacker3983/pyrit-installer && cd pyrit-installer && sudo bash install.sh 
 cd /opt/tools && sudo git clone --depth 1 https://github.com/drwetter/testssl.sh.git 
