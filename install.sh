@@ -13,6 +13,11 @@ echo "# Welcome to the kali install script #"
 echo "#                                    #"
 echo "######################################"
 
+
+read -p "Key points:
+- You will be asked to reset your password
+- Your Kali user will be placed into the sudoers group to avoid having to enter a password prompt for each sudo command"
+
 # Reset the text color
 echo -e "\033[0m"
 
