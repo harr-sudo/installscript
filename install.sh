@@ -127,9 +127,11 @@ cd /opt/tools/AD/ADExplorerSnapshot.py && sudo pip3 install --user .
 cd /opt/tools/AD && sudo git clone https://github.com/helpsystems/nanodump.git
 
 cd /opt/tools/AD && sudo git clone https://github.com/topotam/PetitPotam
+cd /opt/tools/AD/PetitPotam && sudo chmod +x PetitPotam.py
 
 cd /opt/tools/AD &&  mkdir printnightmare
 cd /opt/tools/AD/printnightmare && sudo git clone https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527
+sudo chmod +x /opt/tools/AD/printnightmare/PrintNightmare-CVE-2021-34527/CVE-2021-34527.py
 
 
 cd /opt/tools/AD && sudo python3 -m pip install impacket && python3 -m pip install .
