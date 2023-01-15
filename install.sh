@@ -58,7 +58,7 @@ echo 'kali ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
  
 sudo timedatectl set-timezone Europe/London 
 sudo gzip -d /usr/share/wordlists/rockyou.txt.gz 
-sudo apt get-install seclists
+
 #github tools 
 
 cd /opt && sudo mkdir tools && cd tools 
@@ -79,7 +79,9 @@ cd /opt/tools/AD && sudo git clone https://github.com/topotam/PetitPotam
 cd /opt/tools/AD &&  mkdir printnightmare
 cd /opt/tools/AD/printnightmare && sudo git clone https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527
 
-CHMOD PRINTNIGHTMARE CVE PYTHON FILE
+
+cd /opt/tools/AD && sudo python3 -m pip install impacket && python3 -m pip install .
+cd /opt/tools && sudo git clone https://github.com/danielmiessler/SecLists.git
 
 
 
