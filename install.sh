@@ -62,7 +62,7 @@ read -p "Key points:
 - You will be asked to reset your password
 - Your Kali user will be placed into the sudoers group to avoid having to enter a password prompt for each sudo command
 - Read install.sh for a full list of what will be added
-- This will take about 10 minutes to run
+- This will take about 15 minutes to run
 
 "
 
