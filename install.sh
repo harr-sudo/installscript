@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Clear the terminal
+# Clear the terminal and retain existing scroll up history
 clear -x
 
 # Set the text color to blue
