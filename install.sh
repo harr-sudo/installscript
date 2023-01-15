@@ -84,6 +84,7 @@ CHMOD PRINTNIGHTMARE CVE PYTHON FILE
 
 
 cd /opt/tools/AD && sudo mkdir cheatsheet && sudo wget https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet 
+cd /opt/tools/AD && sudo wget https://github.com/harr-sudo/installscript/raw/main/ad_cheatsheet_by_orange-cyberdefense.pdf
 
 
 
