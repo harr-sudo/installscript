@@ -70,7 +70,6 @@ read -p "Key points:
 echo -e "\033[0m"
 
 
-
 #!/bin/bash 
 read -p "Run this immediately after first boot. Press any key to continue or Ctrl+C to quit. " 
  
@@ -145,3 +144,5 @@ cd /opt/tools/AD/cheatsheet && sudo wget https://github.com/harr-sudo/installscr
 
 
 cd /opt/tools && sudo git clone https://github.com/D3Ext/AORT && cd AORT && pip3 install -r requirements.txt && sudo chmod +x AORT.py
+
+cd /opt/tools && sudo git clone https://github.com/harr-sudo/privilege-escalation-awesome-scripts-suite
