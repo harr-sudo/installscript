@@ -12,5 +12,5 @@ See https://github.com/harr-sudo/installscript/blob/main/install.sh for full lis
 
 # Oneliner:
 
-sudo wget https://raw.githubusercontent.com/harr-sudo/installscript/main/install.sh && chmod +x ./install.sh && ./install.sh
+> sudo wget https://raw.githubusercontent.com/harr-sudo/installscript/main/install.sh && chmod +x ./install.sh && ./install.sh
 
