@@ -67,6 +67,8 @@ read -p "FIRST CHANGE THE DEFAULT PASSWORD....."
  
 sudo passwd kali 
 
+echo
+
 read –p "for recon-ng MANUALLY run recon-ng and then 'marketplace install all'"
 
 read -p "NEXT UPDATE KALI. PRESS ENTER...." 
