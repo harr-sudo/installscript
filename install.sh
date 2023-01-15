@@ -48,6 +48,16 @@ echo "#                                    #"
 echo "######################################"
 
 
+cat << "EOF"
+|     .-.
+|    /   \         .-.
+|   /     \       /   \       .-.     .-.     _   _
++--/-------\-----/-----\-----/---\---/---\---/-\-/-\/\/---
+| /         \   /       \   /     '-'     '-'
+|/           '-'         '-'
+
+EOF
+
 read -p "Key points:
 - You will be asked to reset your password
 - Your Kali user will be placed into the sudoers group to avoid having to enter a password prompt for each sudo command
