@@ -141,8 +141,3 @@ cd /opt/tools/AD && sudo wget https://github.com/harr-sudo/installscript/raw/mai
 
 
 cd /opt/tools && sudo git clone https://github.com/D3Ext/AORT && cd AORT && pip3 install -r requirements.txt && sudo chmod +x AORT.py
-
-cd /opt/tools && sudo git clone https://github.com/vysecurity/LinkedInt
-
-cd /opt/tools/LinkedInt
-pip install -r requirements.txt
