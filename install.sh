@@ -87,23 +87,23 @@ read -p "NEXT UPDATE KALI. PRESS ENTER...."
  
 sudo apt update -y 
  
-sudo apt full-upgrade –y 
+#sudo apt full-upgrade –y 
  
 read –t 10 -p "INSTALLING TOOLS..." 
  
  
 sudo apt install -y gobuster 
 sudo apt install -y gedit 
-sudo apt install -y hcxdumptool 
-sudo apt install -y hcxtools 
-sudo apt install -y airgeddon 
-sudo apt install -y bettercap 
-sudo apt install -y hostapd-wpe 
-sudo apt install -y mdk4 
-sudo apt install -y lighttpd 
-sudo apt install -y isc-dhcp-server 
-sudo apt install -y asleap 
-sudo apt install -y beef-xss 
+#sudo apt install -y hcxdumptool 
+#sudo apt install -y hcxtools 
+#sudo apt install -y airgeddon 
+#sudo apt install -y bettercap 
+#sudo apt install -y hostapd-wpe 
+#sudo apt install -y mdk4 
+#sudo apt install -y lighttpd 
+#sudo apt install -y isc-dhcp-server 
+#sudo apt install -y asleap 
+#sudo apt install -y beef-xss 
  
 echo 'kali ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers 
  
