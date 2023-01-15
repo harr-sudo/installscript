@@ -51,6 +51,8 @@ echo "######################################"
 read -p "Key points:
 - You will be asked to reset your password
 - Your Kali user will be placed into the sudoers group to avoid having to enter a password prompt for each sudo command
+- Read install.sh for a full list of what will be added
+
 "
 
 # Reset the text color
@@ -59,7 +61,7 @@ echo -e "\033[0m"
 
 
 #!/bin/bash 
-read -p "This is a simple script that installs key tools for your new Kali build. Run this immediately after first boot. Press any key to continue or Ctrl+C to quit. " 
+read -p "Run this immediately after first boot. Press any key to continue or Ctrl+C to quit. " 
  
 read -p "FIRST CHANGE THE DEFAULT PASSWORD....." 
  
