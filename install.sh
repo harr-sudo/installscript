@@ -135,6 +135,8 @@ cd /opt/tools/AD &&  mkdir printnightmare
 cd /opt/tools/AD/printnightmare && sudo git clone https://github.com/nemo-wq/PrintNightmare-CVE-2021-34527
 sudo chmod +x /opt/tools/AD/printnightmare/PrintNightmare-CVE-2021-34527/CVE-2021-34527.py
 
+cd /opt/tools/AD && wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_386 && chmod +x kerbrute_linux_386
+cd /opt/tools/AD && wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe
 
 cd /opt/tools/AD && sudo python3 -m pip install impacket && python3 -m pip install .
 cd /opt/tools && sudo git clone https://github.com/danielmiessler/SecLists.git
