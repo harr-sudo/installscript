@@ -121,7 +121,9 @@ cd /opt && sudo mkdir tools && cd tools && sudo wget https://gist.githubusercont
  
 #cd /opt/tools && sudo git clone https://github.com/hacker3983/pyrit-installer && cd pyrit-installer && sudo bash install.sh 
 cd /opt/tools && sudo git clone --depth 1 https://github.com/drwetter/testssl.sh.git 
-cd /opt/tools && sudo pip install --upgrade pip setuptools wheel
+
+
+cd /opt/tools && sudo git clone https://github.com/nabla-c0d3/sslyze.gitsudo && pip install --upgrade pip setuptools wheel
 cd /opt/tools && sudo git clone https://github.com/t3l3machus/psudohash  
 cd /opt/tools/psudohash && chmod +x psudohash.py 
 cd /opt/tools/ && sudo pip install shell-gpt
