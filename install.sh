@@ -132,7 +132,7 @@ cd /opt/tools && sudo git clone https://github.com/IvanGlinkin/Domain_checker.gi
 cd /opt/tools && sudo mkdir AD
 
 cd /opt/tools/AD && sudo git clone https://github.com/c3c/ADExplorerSnapshot.py.git
-cd /opt/tools/AD/ADExplorerSnapshot.py && sudo pip3 install --user .
+cd /opt/tools/AD/ADExplorerSnapshot.py && pip3 install --user .
 cd /opt/tools/AD && sudo git clone https://github.com/helpsystems/nanodump.git
 
 cd /opt/tools/AD && sudo git clone https://github.com/topotam/PetitPotam
@@ -145,7 +145,7 @@ sudo chmod +x /opt/tools/AD/printnightmare/PrintNightmare-CVE-2021-34527/CVE-202
 cd /opt/tools/AD && wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_386 && chmod +x kerbrute_linux_386
 cd /opt/tools/AD && wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe
 
-cd /opt/tools/AD && sudo python3 -m pip install impacket && python3 -m pip install .
+cd /opt/tools/AD && python3 -m pip install impacket && python3 -m pip install .
 cd /opt/tools && sudo git clone https://github.com/danielmiessler/SecLists.git
 
 
