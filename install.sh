@@ -67,6 +67,7 @@ read -p "Key points:
 - Your Kali user will be placed into the sudoers group to avoid having to enter a password prompt for each sudo command
 - Read install.sh for a full list of what will be added
 - This will take about 15 minutes to run
+- You will need an API key for shell-gpt to work
 
 "
 
@@ -114,13 +115,15 @@ sudo gzip -d /usr/share/wordlists/rockyou.txt.gz
 
 #github tools 
 
+
+
 cd /opt && sudo mkdir tools && cd tools && sudo wget https://gist.githubusercontent.com/superkojiman/11076951/raw/74f3de7740acb197ecfa8340d07d3926a95e5d46/namemash.py && sudo chmod +x namemash.py 
  
 #cd /opt/tools && sudo git clone https://github.com/hacker3983/pyrit-installer && cd pyrit-installer && sudo bash install.sh 
 cd /opt/tools && sudo git clone --depth 1 https://github.com/drwetter/testssl.sh.git 
 cd /opt/tools && sudo git clone https://github.com/t3l3machus/psudohash  
 cd /opt/tools/psudohash && chmod +x psudohash.py 
-
+cd /opt/tools/ pip install shell-gpt
 
 cd /opt/tools && sudo mkdir AD
 
