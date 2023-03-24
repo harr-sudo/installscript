@@ -127,7 +127,7 @@ cd /opt/tools && sudo git clone https://github.com/nabla-c0d3/sslyze.gitsudo && 
 cd /opt/tools && sudo git clone https://github.com/t3l3machus/psudohash  
 cd /opt/tools/psudohash && chmod +x psudohash.py 
 cd /opt/tools/ && sudo pip install shell-gpt
-cd /opt/tools && sudo git clone https://github.com/IvanGlinkin/Domain_checker.git && chmod +x domain_checker.sh
+cd /opt/tools && sudo git clone https://github.com/IvanGlinkin/Domain_checker.git && sudo chmod +x domain_checker.sh
 
 cd /opt/tools && sudo mkdir AD
 
